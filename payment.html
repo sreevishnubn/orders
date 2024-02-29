@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pyment</title>
+</head>
+        <body>
+            <center>
+            <h1> PAYMENT TYPE</h1>
+            <hr color="blue">
+            <form action="payment.php" method="post">
+            <table>
+            <tr>
+                <td>
+                   <b>NET PRICE</b> 
+                </td>
+                <td>
+                    <input type="number" name="nprice" >
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <b> CASH PAID</b> </td><td>
+                    <input type="number" name="cashid">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b> PAYMENT_ID</b> </td><td>
+                    <input type="number" name="pid">
+                </td>
+            </tr>
+            <tr>
+       <td>
+        <legend><b>PAYMENT-TYPE</b> </legend> 
+            <td>CASH<input type="radio" name="C" value="CASH">
+            CARD <input type="radio" name="C" value="CARD"></td>   
+    </td></tr> 
+            <tr> 
+                       <td><b><label>NAMME OF CARD </label> </b></td> 
+                       <td>
+                        <input type="text" name="card" id="">
+                       </td>
+                </tr>  <tr>
+                     <td><b>CVV</b></td>
+                  <td><input type="password" name="" id="" maxlength="4"></td>
+                </tr><br></table> <p>
+            <input type="submit" value="Submit"> &nbsp;
+            <input type="Reset" value="Reset">
+        </p></form></center>
+        </body>
+</html>

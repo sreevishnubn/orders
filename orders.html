@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orders</title>
+</head>
+<body><center>
+    <h1> ORDER DETAILS</h1>
+    <hr color="black"></center>
+<form action="orders.php" method="post">
+  <tr>
+        <td> DATE:
+
+        </td>
+        <input type="date" name="date">
+    </tr>
+    <br>
+<br>
+<tr>
+    <td>
+        TIME:
+
+    </td>
+    <input type="time" name="time">
+</tr>
+
+    <center>
+  <table>
+
+    <tr>
+        <td>
+    <b>ORDER_NO</b>
+</td><td>
+<input type="number" name="order_no">
+</td>
+<tr>
+    <td>
+        <B>FLOOR</B>
+    </td>
+    <td>
+        <input type="text" name="ff">
+    </td>
+</tr>
+
+<tr>
+    <td>
+      <legend><b>ORDER-TYPE</b> </legend> 
+        <td>TO TABLE <input type="radio" name="r" value="TO TABLE" ><br>
+            TO HOME <input type="radio" name="r" value="TO HOME"></td>
+</td>
+</tr>
+
+<tr>
+    <td>
+       <b> CPHONE</b>
+
+    </td>
+    <td>
+<input type="number" name="cphone">
+</td></tr></table> <p>
+  <tr> <td>
+<input type="submit" value="SUBMIT"> &nbsp;
+</td></tr>
+<tr><td>
+<input type="submit" value="RESET"> 
+</tr></td></p>
+</form>
+</center>
+</body>
+</html>
+
